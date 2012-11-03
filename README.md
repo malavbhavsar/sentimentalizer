@@ -1,29 +1,20 @@
 Sentimentalizer
 ===============
 
-Sentiment analysis service unashamedly ripped off of [Sentan](https://github.com/martinrue/Sentan).
+This is totally ripped off of from [sentimentalizer](https://github.com/kouphax/sentimentalizer/) which was inspired by [Sentan](https://github.com/martinrue/Sentan).
 
-There are currently 2 flavours of this implementation - a .NET/Mono version and a Ruby version.
+This gem is designed to integrate directly with rails
 
-The mono version is built using
+Instructions for use:
 
-- Mono (xsp, xbuild)
-- TinyWeb
-- Sentan
+1. Install gem using bundler gem "sentimentalizer", :git => "git@github.com:malavbhavsar/sentimentalizer.git"
 
-The ruby version is built using
+2. Create one initializer and require 'sentimentalizer'
 
-- Ruby
-- Sinatra
+3. Run the Sentimentalizer.setup in initializer using after_initialize hook
 
-Currently the Ruby version return less data to the front end (this is intentional)
+4. Finally, you can run Sentimentalizer.analyze("message or tweet or status")
 
------------------------------------------------
+5. You will get output something like this {'text' => 'i am so happy', 'probability' => '0.937', 'sentiment' => ':)' }
 
-Copyright (C) 2012 James Hughes
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+File an issue if you find any problem
