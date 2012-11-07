@@ -1,1 +1,1 @@
-rvm 1.9.3-dev@sentimentalizer
+rvm --create 1.9.3-dev@sentimentalizer

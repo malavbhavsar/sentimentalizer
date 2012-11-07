@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "sentimentalizer"
   gem.homepage = "http://github.com/malavbhavsar/sentimentalizer"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Sentiment analysis with ruby.}
+  gem.description = %Q{Sentiment analysis with ruby.}
   gem.email = "malav.bhavsar@gmail.com"
   gem.authors = ["malavbhavsar"]
   # dependencies defined in Gemfile
