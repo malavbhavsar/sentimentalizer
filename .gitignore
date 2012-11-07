@@ -1,51 +1,49 @@
-#OS junk files
-[Tt]humbs.db
-*.DS_Store
+# rcov generated
+coverage
+coverage.data
 
-#Visual Studio files
-*.[Oo]bj
-*.exe
-*.pdb
-*.user
-*.aps
-*.pch
-*.vspscc
-*.vssscc
-*_i.c
-*_p.c
-*.ncb
-*.suo
-*.tlb
-*.tlh
-*.bak
-*.[Cc]ache
-*.ilk
-*.log
-*.lib
-*.sbr
-*.sdf
-*.[Pp]ublish.xml
-ipch/
-obj/
-[Bb]in
-[Dd]ebug*/
-[Rr]elease*/
-Ankh.NoLoad
+# rdoc generated
+rdoc
 
-# Mono Files
-*.pidb
-*.userprefs
+# yard generated
+doc
+.yardoc
 
-#Tooling
-_ReSharper*/
-*.resharper
-[Tt]est[Rr]esult*
+# bundler
+.bundle
 
-#Project files
-[Bb]uild/
+# jeweler generated
+pkg
 
-#Subversion files
-.svn
+# Have editor/IDE/OS specific files you need to ignore? Consider using a global gitignore: 
+#
+# * Create a file at ~/.gitignore
+# * Include files you want ignored
+# * Run: git config --global core.excludesfile ~/.gitignore
+#
+# After doing this, these files will be ignored in all your git projects,
+# saving you from having to 'pollute' every project you touch with them
+#
+# Not sure what to needs to be ignored for particular editors/OSes? Here's some ideas to get you started. (Remember, remove the leading # of the line)
+#
+# For MacOS:
+#
+#.DS_Store
 
-# Office Temp Files
-~$*
+# For TextMate
+#*.tmproj
+#tmtags
+
+# For emacs:
+#*~
+#\#*
+#.\#*
+
+# For vim:
+*.swp
+
+# For redcar:
+#.redcar
+
+# For rubinius:
+#*.rbc
