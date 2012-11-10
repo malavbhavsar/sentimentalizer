@@ -8,17 +8,7 @@ This gem is designed to integrate directly with rails.
 
 1. Install gem using bundler `gem "sentimentalizer"`
 
-2. Create one initializer file named `"sentimentalizer_initializer.rb"` and add following code in it
-```ruby
-	require "sentimentalizer"
-	module Your_app_name
-		class Application < Rails::Application
-			config.after_initialize do
-				Sentimentalizer.setup
-			end
-		end
-	end
-```
+2. Run `rails g sentimentalizer`. This will generate an initializer file with after_initialize hook. It's basically training a model to use in the application. It will run everytime you start server or run any rake commands.
 
 3. Now, you can run following after ```require "sentimentalizer"``` 
 ```ruby
