@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "sentimentalizer"
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["malavbhavsar"]
-  s.date = "2012-11-07"
+  s.date = "2012-11-10"
   s.description = "Sentiment analysis with ruby."
   s.email = "malav.bhavsar@gmail.com"
   s.extra_rdoc_files = [
@@ -18,14 +18,6 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".document",
-    ".idea/.name",
-    ".idea/encodings.xml",
-    ".idea/misc.xml",
-    ".idea/modules.xml",
-    ".idea/scopes/scope_settings.xml",
-    ".idea/sentimentalizer-master.iml",
-    ".idea/vcs.xml",
-    ".idea/workspace.xml",
     ".rspec",
     ".rvmrc",
     "Gemfile",
@@ -838,6 +830,10 @@ Gem::Specification.new do |s|
     "lib/engine/classifier.rb",
     "lib/engine/corpus.rb",
     "lib/engine/document.rb",
+    "lib/generators/sentimentalizer_generator.rb",
+    "lib/generators/templates/initializer.rb",
+    "lib/rails/generators/sentimentalizer/install/install_generator.rb",
+    "lib/rails/generators/sentimentalizer/install/templates/initializer.rb",
     "lib/sentimentalizer.rb",
     "sentimentalizer.gemspec",
     "spec/sentimentalizer_spec.rb",
