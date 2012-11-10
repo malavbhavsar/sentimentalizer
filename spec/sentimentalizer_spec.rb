@@ -1,18 +1,13 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe "Sentimentalizer" do
-  it "fails" do
-    fail "hey buddy, you should probably rename this file and start specing for real"
+  before do
+    Sentimentalizer.setup
   end
-end
-
-describe 'sentimentalizer api' do
-
   it "will error without a valid input" do
-    pending
+    expect{Sentimentalizer.analyze("")}.to raise_error
   end
-
   it "will return a vlid response with a valid input" do
-    pending
+    JSON.parse(Sentimentalizer.analyze("I hate not tests"))["sentiment"].should eq(":(")
   end
 end
