@@ -4,6 +4,12 @@ This is totally ripped off of from [sentimentalizer](https://github.com/kouphax/
 
 This gem is designed to integrate directly with rails.
 
+# Dependency [![Dependency Status](https://gemnasium.com/malavbhavsar/sentimentalizer.png)](https://gemnasium.com/malavbhavsar/sentimentalizer)
+
+# Travis [![Build Status](https://secure.travis-ci.org/malavbhavsar/sentimentalizer.png?branch=master)](https://travis-ci.org/malavbhavsar/sentimentalizer)
+
+# Codeclimate [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/malavbhavsar/sentimentalizer)
+
 ## Instructions for use
 
 1. Install gem using bundler `gem "sentimentalizer"`
