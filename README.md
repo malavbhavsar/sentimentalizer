@@ -8,7 +8,7 @@ This gem is designed to integrate directly with rails.
 
 # Travis [![Build Status](https://secure.travis-ci.org/malavbhavsar/sentimentalizer.png?branch=master)](https://travis-ci.org/malavbhavsar/sentimentalizer)
 
-# Codeclimate [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/malavbhavsar/sentimentalizer)
+# Codeclimate [![Code Climate](https://codeclimate.com/github/malavbhavsar/sentimentalizer.png)](https://codeclimate.com/github/malavbhavsar/sentimentalizer)
 
 ## Instructions for use
 
