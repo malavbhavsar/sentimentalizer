@@ -10,8 +10,12 @@ class Sentimentalizer
     @analyser.train_negative "#{File.dirname(__FILE__)}/data/negative"
   end
 
-  def self.analyze(sentence)
-    @analyser.analyse(sentence).to_json
+  def self.analyze(sentence, as_json=nil)
+    unless as_json
+      @analyser.analyse(sentence)
+    else
+      @analyser.analyse(sentence).to_json
+    end
   end
 
 end
