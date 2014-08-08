@@ -19,12 +19,16 @@ This gem is designed to integrate directly with rails.
 3. Now, you can run following after ```require "sentimentalizer"``` 
 ```ruby
 Sentimentalizer.analyze('message or tweet or status')
+# or for json output
+Sentimentalizer.analyze('message or tweet or status', true)
 ```
 
 4. You will get output like this 
 ```ruby
 Sentimentalizer.analyze('i am so happy')
 => {'text' => 'i am so happy', 'probability' => '0.937', 'sentiment' => ':)' }
+Sentimentalizer.analyze('i am so happy', true)
+=> "{\"text\":\"i am so happy\",\"probability\":\"0.937\",\"sentiment\":\":)\"}"
 ```
 
 ## Contributing to sentimentalizer
