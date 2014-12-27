@@ -1,8 +1,8 @@
 # sentimentalizer
 
-This is totally ripped off of from [sentimentalizer](https://github.com/kouphax/sentimentalizer/) which was inspired by [Sentan](https://github.com/martinrue/Sentan).
+Inspired by ~~[Sentan](https://github.com/martinrue/Sentan)~~https://github.com/martinrue/node-sentiment.
 
-This gem is designed to integrate directly with rails.
+This gem can be used separately or integrated with rails app.
 
 # Dependency [![Dependency Status](https://gemnasium.com/malavbhavsar/sentimentalizer.png)](https://gemnasium.com/malavbhavsar/sentimentalizer)
 
@@ -14,7 +14,7 @@ This gem is designed to integrate directly with rails.
 
 1. Install gem using bundler `gem "sentimentalizer"`
 
-2. Run `rails g sentimentalizer`. This will generate an initializer file with after_initialize hook. It's basically training a model to use in the application. It will run everytime you start server or run any rake commands.
+2. Run `rails g sentimentalizer`. This will generate an initializer file with after_initialize hook for rails. It's basically training a model to use in the application. It will run everytime you start server or run any rake commands, would love some input on this.
 
 3. Now, you can run following after ```require "sentimentalizer"``` 
 ```ruby
@@ -43,6 +43,6 @@ Sentimentalizer.analyze('i am so happy', true)
 
 ## Copyright
 
-Copyright (c) 2012 malavbhavsar. See LICENSE.txt for
+Copyright (c) 2015 malavbhavsar. See LICENSE.txt for
 further details.
 
