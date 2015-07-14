@@ -23,7 +23,7 @@ Sentimentalizer.analyze('message or tweet or status')
 Sentimentalizer.analyze('message or tweet or status', true)
 ```
 
-4. You will get output like this 
+You will get output like this 
 ```ruby
 Sentimentalizer.analyze('i am so happy')
 => {'text' => 'i am so happy', 'probability' => '0.937', 'sentiment' => ':)' }
