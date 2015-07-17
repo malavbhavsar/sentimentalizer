@@ -10,7 +10,7 @@ This gem can be used separately or integrated with rails app.
 
 # Codeclimate [![Code Climate](https://codeclimate.com/github/malavbhavsar/sentimentalizer.png)](https://codeclimate.com/github/malavbhavsar/sentimentalizer)
 
-## Instructions for use
+## Instructions for Rails use
 
 1. Install gem using bundler `gem "sentimentalizer"`
 
@@ -23,11 +23,48 @@ Sentimentalizer.analyze('message or tweet or status')
 Sentimentalizer.analyze('message or tweet or status', true)
 ```
 
-4. You will get output like this 
+You will get output like this 
 ```ruby
 Sentimentalizer.analyze('i am so happy')
 => {'text' => 'i am so happy', 'probability' => '0.937', 'sentiment' => ':)' }
 Sentimentalizer.analyze('i am so happy', true)
+=> "{\"text\":\"i am so happy\",\"probability\":\"0.937\",\"sentiment\":\":)\"}"
+```
+
+## Instructions for Vanilla Ruby use
+
+1. Install gem using bundler `gem "sentimentalizer"`
+
+2. Either fire up `irb`, or require it in your project with `require 'sentimentalizer'`
+
+3. Now, you need to train the engine in order to use it
+
+```ruby
+require "sentimentalizer"
+
+Sentimentalizer.setup
+
+# or, wrap it in a class so setup can be automatic
+class Analyzer
+  def initialize
+    Sentimentalizer.setup
+  end
+  
+  def process(phrase)
+    Sentimentalyzer.analyze phrase
+  end
+end
+
+# or for json output
+Sentimentalizer.analyze('message or tweet or status', true)
+```
+
+And now you will get output like this 
+```ruby
+analyzer = Analyzer.new
+analyzer.process('i am so happy')
+=> {'text' => 'i am so happy', 'probability' => '0.937', 'sentiment' => ':)' }
+analyzer.process('i am so happy', true)
 => "{\"text\":\"i am so happy\",\"probability\":\"0.937\",\"sentiment\":\":)\"}"
 ```
 
