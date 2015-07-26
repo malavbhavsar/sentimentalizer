@@ -51,7 +51,7 @@ class Analyzer
   end
   
   def process(phrase)
-    Sentimentalyzer.analyze phrase
+    Sentimentalizer.analyze phrase
   end
 end
 
