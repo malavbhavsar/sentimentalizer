@@ -1,14 +1,9 @@
 # sentimentalizer
+[![Dependency Status](https://gemnasium.com/malavbhavsar/sentimentalizer.png)](https://gemnasium.com/malavbhavsar/sentimentalizer)  [![Build Status](https://secure.travis-ci.org/malavbhavsar/sentimentalizer.png?branch=master)](https://travis-ci.org/malavbhavsar/sentimentalizer)  [![Code Climate](https://codeclimate.com/github/malavbhavsar/sentimentalizer.png)](https://codeclimate.com/github/malavbhavsar/sentimentalizer)
 
-Inspired by ~~[Sentan](https://github.com/martinrue/Sentan)~~https://github.com/martinrue/node-sentiment.
+Inspired by ~~[Sentan](https://github.com/martinrue/Sentan)~~ [node-sentiment](https://github.com/martinrue/node-sentiment).
 
 This gem can be used separately or integrated with rails app.
-
-# Dependency [![Dependency Status](https://gemnasium.com/malavbhavsar/sentimentalizer.png)](https://gemnasium.com/malavbhavsar/sentimentalizer)
-
-# Travis [![Build Status](https://secure.travis-ci.org/malavbhavsar/sentimentalizer.png?branch=master)](https://travis-ci.org/malavbhavsar/sentimentalizer)
-
-# Codeclimate [![Code Climate](https://codeclimate.com/github/malavbhavsar/sentimentalizer.png)](https://codeclimate.com/github/malavbhavsar/sentimentalizer)
 
 ## Instructions for Rails use
 
