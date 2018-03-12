@@ -75,6 +75,6 @@ analyzer.process('i am so happy', true)
 
 ## Copyright
 
-Copyright (c) 2015 malavbhavsar. See LICENSE.txt for
+Copyright (c) 2018 malavbhavsar. See LICENSE.txt for
 further details.
 
