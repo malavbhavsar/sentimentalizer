@@ -48,7 +48,7 @@ GEM
     psych (3.0.2)
     rack (2.0.8)
     rake (12.3.0)
-    rdoc (6.0.1)
+    rdoc (6.2.1)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
