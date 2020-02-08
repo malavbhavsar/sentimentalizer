@@ -8,6 +8,6 @@ source "http://rubygems.org"
 group :development do
   gem "rspec", "~> 3.6"
   gem "rdoc", "~> 6.0"
-  gem "jeweler", "~> 2.3"
+  gem "juwelier", "~> 2.3"
   gem "simplecov", "~> 0.15"
 end
