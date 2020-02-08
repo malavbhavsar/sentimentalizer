@@ -1,5 +1,5 @@
 # sentimentalizer
-[![Dependency Status](https://gemnasium.com/malavbhavsar/sentimentalizer.png)](https://gemnasium.com/malavbhavsar/sentimentalizer)  [![Build Status](https://secure.travis-ci.org/malavbhavsar/sentimentalizer.png?branch=master)](https://travis-ci.org/malavbhavsar/sentimentalizer)  [![Code Climate](https://codeclimate.com/github/malavbhavsar/sentimentalizer.png)](https://codeclimate.com/github/malavbhavsar/sentimentalizer)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=malavbhavsar/sentimentalizer)](https://dependabot.com)  [![Build Status](https://secure.travis-ci.org/malavbhavsar/sentimentalizer.png?branch=master)](https://travis-ci.org/malavbhavsar/sentimentalizer)  [![Code Climate](https://codeclimate.com/github/malavbhavsar/sentimentalizer.png)](https://codeclimate.com/github/malavbhavsar/sentimentalizer)
 
 Inspired by ~~[Sentan](https://github.com/martinrue/Sentan)~~ [node-sentiment](https://github.com/martinrue/node-sentiment).
 
