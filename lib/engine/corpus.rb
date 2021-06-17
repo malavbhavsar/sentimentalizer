@@ -28,3 +28,5 @@ class Corpus
     @tokens[token] || 0
   end
 end
+
+

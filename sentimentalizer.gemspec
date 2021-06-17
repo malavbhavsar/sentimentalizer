@@ -844,6 +844,8 @@ Gem::Specification.new do |s|
   s.rubygems_version = "3.0.6".freeze
   s.summary = "Sentiment analysis with ruby.".freeze
 
+  s.add_dependency 'pragmatic_tokenizer'
+
   if s.respond_to? :specification_version then
     s.specification_version = 4
 

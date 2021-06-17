@@ -8,6 +8,14 @@ class Analyser
     @negative = Corpus.new
   end
 
+  def add_positive(document)
+    @positive.add(document)
+  end
+
+  def add_negative(document)
+    @negative.add(document)
+  end
+
   def train_positive path
     puts 'Training analyser with +ve sentiment'
     @positive.load_from_directory path
