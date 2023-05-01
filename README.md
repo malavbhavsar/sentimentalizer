@@ -1,5 +1,7 @@
+# Archived!
+It is 2023. You should be using something else for Sentiment Analysis. Maybe [this](https://huggingface.co/blog/sentiment-analysis-python) is something you can use.
+
 # sentimentalizer
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=malavbhavsar/sentimentalizer)](https://dependabot.com)  [![Build Status](https://secure.travis-ci.org/malavbhavsar/sentimentalizer.png?branch=master)](https://travis-ci.org/malavbhavsar/sentimentalizer)  [![Code Climate](https://codeclimate.com/github/malavbhavsar/sentimentalizer.png)](https://codeclimate.com/github/malavbhavsar/sentimentalizer)
 
 Inspired by ~~[Sentan](https://github.com/martinrue/Sentan)~~ [node-sentiment](https://github.com/martinrue/node-sentiment).
 
